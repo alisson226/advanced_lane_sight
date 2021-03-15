@@ -113,3 +113,14 @@ First I defined conversions in x and y from pixels space to meters then I execut
 #### 1. Then finally I consolidated apply all previous process in a function called `pipelinefinal` to apply to the video.
 
 Here's a [link to my video result][video1]
+
+### 2. Potential shortcomings with your current pipeline
+
+One potential shortcoming would be what would happen when we have lane changes or some unknown object blockin the lane identification. The algorithm might not work propperly in may be inpredictable in cases that may occur in not ideal conditions;
+
+Another shortcoming could be that the video annotation is very unstable and this might lead to errors in a real world scenario.
+
+
+### 3. Suggest possible improvements to your pipeline
+
+A possible improvement would be to use machine learning and AI to improve the reliability and the model prediction.
