@@ -17,13 +17,13 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./output_images/Calibrated_Camera_Output.jpg "Undistorted Output"
-[image2]: ./output_images/undistorted_image.jpg "Road Transformed"
-[image3]: ./output_images/binary_combo_output.jpg "Binary Output"
-[image4]: ./output_images/warped_straight_lines.jpg "Warp Example"
-[image5]: ./output_images/color_fit_lines.jpg "Fit Visual"
-[image6]: ./output_images/example_output.jpg "Output"
-[image7]: ./output_images/curve_radius.jpg "Curve Radius"
+[image1]: ./output_images/Calibrated_Camera_Output.JPG "Undistorted Output"
+[image2]: ./output_images/undistorted_image.JPG "Road Transformed"
+[image3]: ./output_images/binary_combo_output.JPG "Binary Output"
+[image4]: ./output_images/warped_straight_lines.JPG "Warp Example"
+[image5]: ./output_images/color_fit_lines.JPG "Fit Visual"
+[image6]: ./output_images/example_output.JPG "Output"
+[image7]: ./output_images/curve_radius.JPG "Curve Radius"
 [video1]: ./test_videos_output/project_video.mp4 "Video"
 
 
@@ -122,5 +122,7 @@ Another shortcoming could be that the video annotation is very unstable and this
 
 
 ### 3. Suggest possible improvements to your pipeline
+
+Tweak the gradient thresholds to improve the detection of lane lines edges in different lighting conditions would be ideal to cover most scenarios;
 
 A possible improvement would be to use machine learning and AI to improve the reliability and the model prediction.
