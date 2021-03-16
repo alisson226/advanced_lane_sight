@@ -123,4 +123,6 @@ Another shortcoming could be that the video annotation is very unstable and this
 
 ### 3. Suggest possible improvements to your pipeline
 
+Tweak the gradient thresholds to improve the detection of lane lines edges in different lighting conditions would be ideal to cover most scenarios;
+
 A possible improvement would be to use machine learning and AI to improve the reliability and the model prediction.
